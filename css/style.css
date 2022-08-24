@@ -2,6 +2,10 @@
     font-family: GochiHand;
     src: url(GochiHand-Regular.ttf);
 }
+@font-face {
+    font-family: Aboreto;
+    src: url(Aboreto-Regular.ttf);
+}
 * {
     padding: 0;
     margin: 0;
@@ -14,6 +18,7 @@
     background-color: #FEEFDE;
     height: 100vh;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
 }
 header {
@@ -110,4 +115,23 @@ main a:hover {
     background-color: #F2C5E0;
     color: #BA0F30;
     font-weight: bold;
+}
+footer img {
+    height: 20px;
+}
+footer {
+    height: fit-content;
+    padding: 5px;
+    display: flex;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    font-size: 15px;
+    font-family: Aboreto;
 }
