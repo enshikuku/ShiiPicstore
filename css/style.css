@@ -1,0 +1,114 @@
+@font-face {
+    font-family: GochiHand;
+    src: url(GochiHand-Regular.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: GochiHand;
+    list-style: none;
+}
+.body {
+    background-color: #FEEFDE;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #C6B79B;
+    color: #BA0F30;
+}
+.logoBox, nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+.logoBox:hover {
+    cursor: pointer;
+}
+.logoBox img {
+    height: 30px;
+}
+.logoBox h1 {
+    font-size: 28px;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+nav li, nav a {
+    font-size: 20px;
+    width: fit-content;
+    border: 1px solid #f2C5E0;
+    text-decoration: none;
+    background-color: #F2C5E0;
+    padding: 3px;
+    border-radius: 5px;
+    color: #BA0F30;
+    transition: .4s;
+}
+nav li:hover, nav a:hover {
+    color: #F2C5E0;
+    border: 1px solid #BA0F30;
+    background-color: #BA0F30;
+    transition: .4s;
+}
+main {
+    font-size: 20px;
+    padding: 15px;
+    display: flex;
+    height: 75vh;
+    flex-direction: column;
+}
+main h1 {
+    font-size: 38px;
+    text-align: right;
+    color: #BA0F30;
+    letter-spacing: 3px;
+}
+main h1:hover {
+    cursor: pointer;
+}
+main h2 {
+    font-size: 34px;
+    letter-spacing: 5px;
+}
+main p {
+    font-size: 20px;
+    word-spacing: 9px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+main a {
+    text-decoration: none;
+    margin: auto;
+    padding: 8px;
+    border-radius: 8px;
+    width: max-content;
+    border: 1px solid #BA0F30;
+    background-color: #BA0F30;
+    color: #F2C5E0;
+    font-size: 24px;
+    letter-spacing: 3px;
+    transition: .4s;
+}
+main a:hover {
+    letter-spacing: 5px;
+    transition: .4s;
+    border: 1px solid #F2C5E0;
+    background-color: #F2C5E0;
+    color: #BA0F30;
+    font-weight: bold;
+}
