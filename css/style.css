@@ -14,6 +14,47 @@
     font-family: GochiHand;
     list-style: none;
 }
+
+.loader{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: #C6B79B;
+}
+.spinner{
+    width: 80px;
+    height: 80px;
+    border: 10px solid #ff0048;
+    border-radius: 50%;
+    border-top: 10px solid #BA0F30;
+    animation: spin 3s linear infinite;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }    
+}
+body::-webkit-scrollbar {
+    width: 7px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #FEEFDE;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #BA0F30;
+    border-radius: 5px; 
+    height: 30px;
+}
 .body {
     background-color: #FEEFDE;
     height: 100vh;
