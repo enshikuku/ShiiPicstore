@@ -115,8 +115,9 @@ main a:hover {
     color: #BA0F30;
     font-weight: bold;
 }
-footer img {
-    height: 20px;
+.footer {
+    position: fixed;
+    bottom: 0;
 }
 footer {
     height: fit-content;
@@ -126,11 +127,60 @@ footer {
     color: white;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
 footer p {
     font-size: 15px;
     font-family: Aboreto;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+    color: #BA0F30;
+}
+.swiper .swiper-pagination-bullet-active {
+    background: #BA0F30;
+}
+.profilelogo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px dotted #BA0F30;
+}
+.openProfile {
+    width: fit-content;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 36px;
+    letter-spacing: 3px;
+    background-color: #F2C5E0;
+    border: 1px double #BA0F30;
+    color: #BA0F30;
+    margin-bottom: 15px;
+}
+.swiper {
+    display: none;
+}
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5%;
+}
+.mainprofile {
+    padding: 10px;
+}
+.images {
+    width: 37.5%;
+    padding-bottom: 50px;
+}
+@media only screen and (max-width: 650px) {
+    .swiper-slide {
+        flex-direction: column;
+    }
+    .images {
+        height: 97%;
+    }
 }

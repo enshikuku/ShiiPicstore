@@ -6,25 +6,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://res.cloudinary.com/dlkqilyi0/image/upload/v1661330327/Picstore/logo_kfhjcz.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <title>Shikuku.Picstore</title>
 </head>
 <body>
     <header id="profile">
         <div class="logoBox">
             <img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1661330327/Picstore/logo_kfhjcz.png" alt="">
-            <h1>Shii.Picstore</h1>
+            <h1>Shi.Pic</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="#profile">PROFILES</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#profile">Profiles</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
+    <h2>Picstore Profiles</h2>
+    <p>Click on the profile you want to view.</p>
+    <div class="mainprofile">
+        <button class="openProfile"><img src="imgLOGO" alt="" class="profilelogo"> <h3>Emmanuel</h3></button>
+        <div class="swiper">
+            
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide">
+                    <img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1661336632/Picstore/PROFILE_1_SHIKUKU/DSC_4801_v0ro85.jpg" alt="" class="images">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1661336629/Picstore/PROFILE_1_SHIKUKU/DSC_0012-4fims_yviaxf.jpg" alt="" class="images">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1661336622/Picstore/PROFILE_1_SHIKUKU/DSC_0184_n6r4pm.jpg" alt="" class="images">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1661336618/Picstore/PROFILE_1_SHIKUKU/IMG20220121103056_btv1an.jpg" alt="" class="images">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1661336609/Picstore/PROFILE_1_SHIKUKU/DSC_0005_fhgufa.jpg" alt="" class="images">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1661336608/Picstore/PROFILE_1_SHIKUKU/DSC_1349_t05nkg.jpg" alt="" class="images">
+                </div>
+            </div>
+            
+            <div class="swiper-pagination"></div>
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <p>NOTE: All the images on this website are posted after the two parties (<i>the Author and the Owner of the photo</i>) reach a verbal agreement to do so</p>
     <footer>
         <p>Shi.Pic &copy; 2022 | All Rights Reserved</p>
     </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        autoplay: {
+          delay : 7000,
+          disableOnInteraction: false,
+        },
+        loop: true,
+      
+        pagination: {
+          el: '.swiper-pagination',
+          clickable : true,
+        },
+      
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }
+        });
+    </script>
+    <script src="main.js"></script>
 </body>
 </html>
+<div>
+<!-- 
+<div class="mainprofile">
+    
+    <button class="openProfile"><img src="imgLOGO" alt="" class="profilelogo"> <h3>Emmanuel</h3></button>
+    <div class="swiper">
+        
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide">
+                <img src="img" alt="" class="images">
+            </div>
+            <div class="swiper-slide">
+                <img src="img" alt="" class="images">
+            </div>
+            <div class="swiper-slide">
+                <img src="img" alt="" class="images">
+            </div>
+            <div class="swiper-slide">
+                <img src="img" alt="" class="images">
+            </div><div class="swiper-slide">
+                <img src="img" alt="" class="images">
+            </div>
+        </div>
+        
+        <div class="swiper-pagination"></div>
+        
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>
+-->
