@@ -228,6 +228,24 @@ footer p {
 .mainprofile {
     padding: 10px;
 }
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 27px;
+    right: 15px;
+    height: 50px;
+    width: 50px; 
+    z-index: 98; 
+    border: none; 
+    outline: none;
+    background-color: rgba(242, 197, 224, .4);
+    padding: 3px;
+    border-radius: 3px;
+}
+#scrollTopBtn:hover {
+    background-color: rgba(254, 239, 222, .6);
+    cursor: progress;
+}
 .images {
     width: 37.5%;
     padding-bottom: 50px;
