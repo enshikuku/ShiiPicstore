@@ -244,7 +244,7 @@ footer p {
 }
 #scrollTopBtn:hover {
     background-color: rgba(254, 239, 222, .6);
-    cursor: progress;
+    cursor: pointer;
 }
 .images {
     width: 37.5%;
