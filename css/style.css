@@ -44,7 +44,7 @@
     }    
 }
 body::-webkit-scrollbar {
-    width: 7px;
+    width: 6px;
 }
   
 body::-webkit-scrollbar-track {
@@ -102,13 +102,13 @@ nav li, nav a {
     padding: 3px;
     border-radius: 5px;
     color: #BA0F30;
-    transition: .4s;
+    transition: .5s;
 }
 nav li:hover, nav a:hover {
     color: #F2C5E0;
     border: 1px solid #BA0F30;
     background-color: #BA0F30;
-    transition: .4s;
+    transition: .5s;
 }
 main {
     font-size: 20px;
@@ -240,9 +240,6 @@ footer p {
     outline: none;
     padding: 3px;
     border-radius: 3px;
-}
-#scrollTopBtn:hover {
-    cursor: pointer;
 }
 .images {
     width: 37.5%;
