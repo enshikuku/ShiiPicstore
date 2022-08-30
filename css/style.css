@@ -238,12 +238,10 @@ footer p {
     z-index: 98; 
     border: none; 
     outline: none;
-    background-color: rgba(242, 197, 224, .4);
     padding: 3px;
     border-radius: 3px;
 }
 #scrollTopBtn:hover {
-    background-color: rgba(254, 239, 222, .6);
     cursor: pointer;
 }
 .images {
