@@ -2,6 +2,7 @@
     font-family: GochiHand;
     src: url(GochiHand-Regular.ttf);
 }
+
 @font-face {
     font-family: Aboreto;
     src: url(Aboreto-Regular.ttf);
@@ -202,12 +203,12 @@ footer p {
     border: 2px dotted #BA0F30;
 }
 .openProfile {
-    width: fit-content;
+    width: 25%;
     padding: 5px;
     display: flex;
-    gap: 5px;
+    gap: 5%;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     margin: 0 auto;
     font-size: 36px;
     letter-spacing: 3px;
@@ -252,5 +253,11 @@ footer p {
     .images {
         height: 97%;
         width: 80%;
+    }
+    .openProfile {
+        width: 95%;
+        gap: 10px;
+        font-size: 30px;
+        letter-spacing: 1px;
     }
 }
